@@ -61,9 +61,9 @@ function SetTime() {
         for (var j = 0; j < image[i].length; j++)
             if (image[i][j] > max) max = image[i][j];
         if (i == 0) delay[i] = 0;
-        else delay[i * 3] = delay[i * 3 - 1] + 2000;            // stepper moving time
-        delay[i * 3 + 1] = delay[i * 3] + max * 500 + 1000;     // servo motor up + relax time
-        delay[i * 3 + 2] = delay[i * 3 + 1] + max * 500 + 1000; // servo motor down + relax time
+        else delay[i * 3] = delay[i * 3 - 1] + 1500;            // stepper moving time
+        delay[i * 3 + 1] = delay[i * 3] + max * 500 + 500;     // servo motor up + relax time
+        delay[i * 3 + 2] = delay[i * 3 + 1] + max * 500 + 500; // servo motor down + relax time
         console.log(delay[i * 3] + ', ' + delay[i * 3 + 1] + ', ' + delay[i * 3 + 2]);
     }
 }
