@@ -1,6 +1,22 @@
 # ButterflyEffect-server
+## Software Capstone Design (F028-1) Project
+
+### Title : Touchable Memory
+### Team Name : ButterflyEffect
+
+Team Member
+====================
++ 201323162 Minjung Sim
++ 201420995 Sungmi Park
++ 201120862 Sungsoo Ahn 
++ 201220920 Ganghyeok Lee
 
 # Discription
+The system of this project has server component, arduino component, and android application component.  
+This repository is related with arduino component.  
+Other repositories URL is as follows:
+> server component : https://github.com/ParkSungmi/ButterflyEffect-server  
+> android application component : https://github.com/ParkSungmi/ButterflyEffect
 
 This is Arduino Code for Touchable Memory Machine.  
 The stored codes are divided into code for transferring the data received from the connected server to Arduino,  
@@ -55,3 +71,9 @@ The parameter value of setSpeed () should not exceed 60 (it is most likely not t
 
 Stepper Motor Multi-Control - StepperMulti.h  
 http://blog.danggun.net/2092
+
+License
+====================
+[MIT][License]
+
+[License]: https://en.wikipedia.org/wiki/MIT_License
