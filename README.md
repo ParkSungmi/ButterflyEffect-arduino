@@ -16,7 +16,7 @@ The .ino file is placed on the Arduino Board and the .js file is run on the conn
 
 The .ino file only works when receiving data in serial.
 
- --- causion! ---
+ --- causion! ---  
 This code requires a computer with an attached board and a serial connection, 
 and when running the code, the two connected boards must be connected in serial.
 
@@ -53,5 +53,5 @@ The parameter value of setSpeed () should not exceed 60 (it is most likely not t
 
 # Reference
 
-Stepper Motor Multi-Control - StepperMulti.h
+Stepper Motor Multi-Control - StepperMulti.h  
 http://blog.danggun.net/2092
